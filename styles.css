@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+
+}
+
+header {
+  box-sizing: border-box;
+  margin: 8px 10px 0 10px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+header:hover {
+  background-color: green;
+}
+
+#black {
+  background-color: black;
+  height: 60%;
+  width: 60%;
+  align-self: center;
+}
+
+#black:hover {
+  background-color: purple;
+}
+
+#blue {
+  background-color: blue;
+  height: 745px;
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#blue:hover {
+  background-color: yellow;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  margin: 50px 20px;
+}
+
+.yellow:hover {
+  background-color: blue;
+}
+
+footer {
+  background-color: green;
+  height: 100px;
+  margin: 0 10px 0 10px;
+}
+
+footer:hover {
+  background-color: gray;
+}
